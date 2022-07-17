@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Portal Unikivi</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+       #foto-capa{
+           height: 800px;
+       }
+        #logotipo{
+            width: 25%;
+            height: 25%;
+            padding: 0px 5px 0px 0px; 
+        }
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      #menu-navegacao{
+          background-color: transparent;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="./css/carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/ajuste.css">
+  </head>
+  <body>
+   
+<main class="bg-dark-21">
+    <div class="container bg-l">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4- border-bottom">
+          <a href="#" class="d-flex align-items-center col-md-3 mb-2 mb-md-0- text-dark text-decoration-none">
+            <img src="./img/LOGO-IPU.jpg" alt="" id="logotipo">
+            <span class="fs-4">Portal Unikivi</span>
+        </a>
+    
+          <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="#" class="nav-link px-2 ">Home</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark">Ensino</a></li>
+            <li><a href="./client-side/Vitrine.html" class="nav-link px-2 link-dark">Vitrine</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark">Noticia</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark">Sobre</a></li>
+          </ul>
+    
+          <div class="col-md-3 text-end">
+            <a href="#janela-de-acesso" class="btn btn-outline-primary me-2">Iniciar Sessão</a>
+            <button type="button" class="btn btn-primary">Criar Conta</button>
+          </div>
+        </header>
+      </div>
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+
+        <img src="./img/Peril Baltazar-Recovered.png" alt="" id="foto-capa">
+
+        <div class="container">
+          <div class="carousel-caption text-start" id=""> 
+            <h2>Universidade Kimpa Vita</h2>
+            <p>Some representative placeholder content for the first slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Saiba mais </a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" >
+
+        <img src="./img/LOGO-IPU.jpg" alt="" id="foto-capa">
+
+        <div class="container">
+          <div class="carousel-caption">   
+            <h2>Instituto Politénico do Uíge</h2>
+            <p>Some representative placeholder content for the second slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Saiba mais</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+
+         <img src="./img/Peril Baltazar-Recovered.png" alt="" id="foto-capa">
+
+        <div class="container">
+          <div class="carousel-caption text-end"> 
+            <h1>Faculdade de Economia</h1>
+            <p>LEMA OU PALAVRA DE ORDEM</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <div class="container marketing" hidden>
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2>Heading</h2>
+        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2>Heading</h2>
+        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2>Heading</h2>
+        <p>And lastly this, the third column of representative placeholder content.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+     
+
+  </div><!-- /.container -->
+
+  <div class="container col-xl-10 col-xxl-8 px-4 py-5" id="janela-de-acesso">
+    <div class="row align-items-center g-lg-5 py-5">
+      <div class="col-lg-7 text-center text-lg-start">
+        <h1 class="display-4 fw-bold lh-1 mb-3">Portal Unikivi</h1>
+        <p class="col-lg-10 fs-4">
+            O portal Unikivi é um espaço especialmente recervado para estundante, afim de melhor gerir os seus dados academicos que vai desde a sua inscrição, matricula, controlo de nota, requerimento  
+        </p>
+      </div>
+      <div class="col-md-10 mx-auto col-lg-5">
+        <form class="p-4- p-md-5 rounded-3 " id="formulario" action="./client-side/contaEstudante.html">
+            <center>
+                <span class="fs-4">Iniciar Sessão</span>
+            </center>
+            <br>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email valido</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">palavra passe</label>
+          </div>
+          <div class="checkbox mb-3">
+            <label>
+              <input type="checkbox" value="remember-me"> Lembra-me
+            </label>
+          </div>
+          <button class="w-100 btn btn-lg btn-primary" type="submit">validar acesso</button>
+          <hr class="my-4">
+          <small class="text-muted" hidden>By clicking Sign up, you agree to the terms of use.</small>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="container" hidden>
+    <p class="float-end"><a href="#">retornar ao Topo</a></p>
+    <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+  
+</main>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+      
+  </body>
+</html>
